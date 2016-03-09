@@ -1,0 +1,6 @@
+clone:
+  skip_verify: true
+build:
+  image: alpine:latest
+  commands:
+    - echo 'done'
