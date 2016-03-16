@@ -1,6 +1,6 @@
 clone:
   skip_verify: true
 build:
-  image: alpine:latest
+  image: testregistry.dataman.io/centos7/drone:3.3
   commands:
     - echo 'done'
