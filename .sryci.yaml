@@ -1,6 +1,6 @@
 clone:
   skip_verify: true
 build:
-  image: golang:latest
+  image: alpine:latest
   commands:
     - echo 'done'
