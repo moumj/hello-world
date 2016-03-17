@@ -3,4 +3,4 @@ clone:
 build:
   image: testregistry.dataman.io/centos7/drone:3.3
   commands:
-    - echo 'done'
+    - echo 'done done'
