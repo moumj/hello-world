@@ -4,3 +4,5 @@ build:
   image: testregistry.dataman.io/centos7/golang:1.5.1 
   commands:
     - echo 'done done'
+    - go build -o hello
+      
