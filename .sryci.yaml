@@ -1,6 +1,6 @@
 clone:
   skip_verify: true
 build:
-  image: testregistry.dataman.io/centos7/drone:3.3
+  image: testregistry.dataman.io/centos7/golang:1.5.1 
   commands:
     - echo 'done done'
