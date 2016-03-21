@@ -1,10 +1,8 @@
-FROM testregistry.dataman.io/centos7/golang:1.5.1 
+FROM testregistry.dataman.io/centos7/alpine:3.3
 MAINTAINER will <g.success16@gmail.com> 
 
-ADD . /go
+ADD hello-world /hello-world
 
-RUN cd /go && go build
-
-CMD ./go/hello-world  
+CMD ./hello-world
 
 
