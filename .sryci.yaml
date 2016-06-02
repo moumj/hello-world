@@ -1,7 +1,7 @@
 clone:
   skip_verify: true
 build:
-  image: devregistry.dataman-inc.com:5000/library/golang:1.5
+  image: devregistry.dataman-inc.com/library/golang:1.5
   commands:
     - echo 'done done'
     - go build -o hello
